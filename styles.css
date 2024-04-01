@@ -1,0 +1,293 @@
+
+body {
+    background-color: #EDEDED;
+    margin: 0;
+}
+
+.bh {
+    border: solid red 2px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    height: 60px;
+    background-color: #8B8AC7;
+    align-items: center;
+}
+
+.button-groups {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.circle-button {
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.color-green {
+    background-color: #63C289;
+}
+
+.color-purple {
+    background-color: #4B499F;
+}
+
+.color-red {
+    background-color: #DA4D4D;
+}
+
+.banner {
+    height: calc(100vh - 60px) ;
+    display: flex;
+    justify-content: center;
+}
+
+.container-content {
+    display: flex;
+    width: 70%;
+
+}
+.banner-content-left {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    margin: 0px;
+    font-size: 90px;
+    font-family: "Handjet", sans-serif;
+    font-weight: 450;
+    color: #333333;
+    text-align: left;
+}
+
+.subtitle {
+    margin: 0px;
+    font-size: 20px;
+    font-family: "Handjet", sans-serif;
+    font-weight: 500;
+    color: #333333;
+    text-align: left;
+
+}
+
+.banner-content-right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-grow: 1;
+}
+
+.banner-img {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+
+
+/* CARD SECTION */
+
+
+.cards-container {
+    height: 650px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.card {
+    height: 250px;
+    width: 200px;
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.info-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-item{
+    height: 23px;
+    background-color: #D6D6D6;
+    border-radius: 500px;
+}
+
+.about-service-section {
+    height: 860px;
+    background-color: #EDEDED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontal-card-container {
+    width: 1050px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.horizontal-card {
+    background-color: #E6E6E6;
+    height: 125px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.about-us-section {
+    height: 710px;
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-us-cards-container{
+    gap: 15px;
+    max-width: 1020px;
+    width: 100%;
+    height: 325px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.about-us-title {
+    font-size: 80px;
+    font-family: "Handjet", sans-serif;
+    color: #333333;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.about-us-info-right {
+    border-radius: 25px;
+    background-color: #E6E6E6;
+    height: 100%;
+    flex: 1;
+}
+
+.about-us-cards-collum-container {
+    display: flex;
+    gap: 15px;
+    flex: 1;
+    flex-direction: column;
+}
+
+.about-us-info-left {
+    background-color: #E6E6E6;
+    border-radius: 25px;
+    flex: 1;
+}
+
+/* SESSAO CARD COM IMAGEM */
+
+
+.card-img-section {
+    height: 810px;
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-container {
+    height: 400px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-container {
+    background-color: #333333;
+    height: 200px;
+    border-radius: 25px;
+    background-image: url(./assets/card-img.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family: "Handjet", sans-serif;
+}
+
+.card-description {
+    margin: 0;
+    font-family: "Handjet", sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical; 
+}
+
+.card-button {
+    height: 50px;
+    border-radius: 10px;
+    background-color: #4B499F;
+    color: #fff;
+    font-size: 21px;
+    font-family: "Handjet", sans-serif;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.card-button:hover {
+    background-color: #26255f;
+}
+
+
+
+
+
+
+
+
